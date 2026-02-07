@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type="date"] {
+	accent-color: #16a34a;
+	color-scheme: light;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+	filter: invert(28%) sepia(74%) saturate(436%) hue-rotate(90deg) brightness(90%) contrast(95%);
+}
+
+input[type="date"]::-webkit-datetime-edit {
+	color: #14532d;
+}
+
+input[type="date"]::-webkit-datetime-edit-fields-wrapper {
+	background: #ecfdf5;
+	border-radius: 0.5rem;
+	padding: 0.15rem 0.35rem;
+}
