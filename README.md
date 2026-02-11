@@ -1,6 +1,7 @@
 Ethio Bus 🚍
 
- 
+ Ethio Bus 🚍
+
 
 A **React web application** that lets users **browse and explore bus companies in Ethiopia**. Users can click on each bus card to see full details, including images and descriptions. The app is clean, responsive, and easy to use.
 
